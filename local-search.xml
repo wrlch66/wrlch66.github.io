@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>关于Hexo主题flexblock使用valine评论的方法</title>
+    <link href="/2023/10/01/%E5%85%B3%E4%BA%8EHexo%E4%B8%BB%E9%A2%98flexblock%E4%BD%BF%E7%94%A8valine%E8%AF%84%E8%AE%BA%E7%9A%84%E6%96%B9%E6%B3%95-1/"/>
+    <url>/2023/10/01/%E5%85%B3%E4%BA%8EHexo%E4%B8%BB%E9%A2%98flexblock%E4%BD%BF%E7%94%A8valine%E8%AF%84%E8%AE%BA%E7%9A%84%E6%96%B9%E6%B3%95-1/</url>
+    
+    <content type="html"><![CDATA[<p><img src="https://img2.baidu.com/it/u=1958188303,179542407&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=501"></p><h1 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h1><p>前段时间接触了valine这个评论插件（现在有Waline了，不过配置更为复杂，这里先讲valine），突发奇想想要给我的博客装上。正值中秋国庆小长假，正好有时间搞搞。</p><h1 id="开始："><a href="#开始：" class="headerlink" title="开始："></a>开始：</h1><p>我刚开始是看的<a href="http://www.zlprogram.com/Show/25/05DC54N8.shtmlhttp://www.zlprogram.com/Show/25/05DC54N8.shtml">这篇文章</a>,按照步骤登陆 <a href="leancloud.cn">LeanCloud</a>（中国版），中国版注册需要使用手机号验证，而</p><p>验证需要验证一个验证码，然后我发现了一个问题：</p>    <figure class="figure-image">      <img src="https：//wrlch66.github.io/public/1.png" alt="滑块推不动" loading="lazy" />      <figcaption>滑块推不动</figcaption>    </figure>  <p>这个滑块咋都推不动？</p><p>我当时寻思可能是网不好，于是我重新刷新了一下，可是还是不行。</p><p>哎？咋回事？</p><p>我去看了看问题解决，他叫我按一下按钮再拖，还是不行。</p><p>于是我登录上了 <a href="leancloud.app">LeanCloud</a>（国外版），这个就简单多了，用邮箱收个验证码即可。</p><p>验证邮箱后，点击控制台首页中的’Create app’创建一个新的应用，选择开发版,名称随便取。<img src="https://i.loli.net/2019/06/21/5d0c995c86fac81746.jpg"></p><p>创建一个应用后打开设置——-应用凭证,把App ID和App key复制下来。</p><p><img src="https://i.loli.net/2019/06/21/5d0c997a60baa24436.jpg"></p><p>在<code>_config.flexblock.yml</code>中的第31,32行的引号后面填上App id和App key。</p><p><img src="C:\Users\Administrator\Desktop\nstar\博客（副）\public\2.png"></p><p>保存，在博客文件夹中运行git bash ，输入<code>hexo g&amp;&amp;hexo s</code>，运行!</p><p>可以看到，对话框出来了。</p><p><img src="C:\Users\Administrator\Desktop\nstar\博客（副）\public\3.png"></p><p>可是，点击提交后，提交按钮变白，按不动了。Valine卡死了。</p><p><img src="C:\Users\Administrator\Desktop\nstar\博客（副）\public\4.png" alt="4"></p><p>这是为什么呢？我查遍了全网也没有找到答案。</p><p>没法子，没有人先上，那我先来！</p><p>根据按钮发白这个现象，可以断定是信息没有发出去。是不是因为用的是国外版，服务器在国外的原因？</p><p>于是我开了加速器，发现发出去了。</p><p>还真是！</p><p>于是我再次去了leanCloud中文版。因为leancloud国内外账号不串通，于是我只好在注册一个。这次倒是</p><p>非常顺利，验证码顺利通过了。</p><p>同样的步骤，获取了app id和app key后在31,32行填写完毕，再次本地预览一下。</p><p><img src="C:\Users\Administrator\Desktop\nstar\博客（副）\public\5.png"></p><p>可以了！</p><h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>hexo flexblock主题</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>文章标题</title>
+    <link href="/2023/09/24/%E4%BD%A0%E5%A5%BD%E5%95%8A/"/>
+    <url>/2023/09/24/%E4%BD%A0%E5%A5%BD%E5%95%8A/</url>
+    
+    <content type="html"><![CDATA[<p>这是我的第一篇博客~</p><p>测试：</p><p><code>import tkinter</code></p><p><a href="www.bilibili.com">qwq</a></p><p><img src="D:\王润朗文件\新建文件夹\e1938abbdbb9bf8939cb9e84c4a95f68eb78c113.jpg"></p><p><del>你干嘛</del></p><!--则是一行注释--><p>&lt;%- partial(‘_partial&#x2F;post&#x2F;utterances’) %&gt;</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2023/09/24/hello-world/"/>
+    <url>/2023/09/24/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><p>&lt;%- partial(‘_partial&#x2F;post&#x2F;utterances’) %&gt;</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
