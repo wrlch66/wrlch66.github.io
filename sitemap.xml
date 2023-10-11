@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2023/10/09/GBT%E8%B5%8B%E8%83%BD%EF%BC%9Apython%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/</loc>
+    
+    <lastmod>2023-10-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/about/index.html</loc>
     
     <lastmod>2023-10-09</lastmod>
@@ -56,15 +65,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/09/24/hello-world/</loc>
-    
-    <lastmod>2023-09-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/links/index.html</loc>
     
     <lastmod>2023-09-24</lastmod>
@@ -76,7 +76,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2023-10-09</lastmod>
+    <lastmod>2023-10-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,7 +84,14 @@
   
   <url>
     <loc>http://example.com/tags/hexo-flexblock%E4%B8%BB%E9%A2%98/</loc>
-    <lastmod>2023-10-09</lastmod>
+    <lastmod>2023-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/GBT%E8%B5%8B%E8%83%BD%EF%BC%9Apython/</loc>
+    <lastmod>2023-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
